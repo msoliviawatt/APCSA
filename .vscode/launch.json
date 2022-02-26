@@ -1,0 +1,161 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch PersonDriver",
+            "request": "launch",
+            "mainClass": "PersonLab.PersonLab.PersonDriver",
+            "projectName": "APCSA_b8dec406"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayLab",
+            "request": "launch",
+            "mainClass": "ArrayLab",
+            "projectName": "APCSA_b8dec406"
+        },
+        {
+            "type": "java",
+            "name": "Launch ChangeConverter",
+            "request": "launch",
+            "mainClass": "ChangeConverter",
+            "projectName": "APCSA_b8dec406"
+        },
+        {
+            "type": "java",
+            "name": "Launch Cookies",
+            "request": "launch",
+            "mainClass": "Cookies",
+            "projectName": "APCSA_b8dec406"
+        },
+        {
+            "type": "java",
+            "name": "Launch HorseDriver",
+            "request": "launch",
+            "mainClass": "HorseDriver",
+            "projectName": "APCSA_b8dec406"
+        },
+        {
+            "type": "java",
+            "name": "Launch KineticEnergy",
+            "request": "launch",
+            "mainClass": "KineticEnergy",
+            "projectName": "APCSA_b8dec406"
+        },
+        {
+            "type": "java",
+            "name": "Launch LoopDeLoop",
+            "request": "launch",
+            "mainClass": "LoopDeLoop",
+            "projectName": "APCSA_b8dec406"
+        },
+        {
+            "type": "java",
+            "name": "Launch LoopyMethods",
+            "request": "launch",
+            "mainClass": "LoopyMethods",
+            "projectName": "APCSA_b8dec406"
+        },
+        {
+            "type": "java",
+            "name": "Launch Permutations",
+            "request": "launch",
+            "mainClass": "Permutations",
+            "projectName": "APCSA_b8dec406"
+        },
+        {
+            "type": "java",
+            "name": "Launch PiEstimator",
+            "request": "launch",
+            "mainClass": "PiEstimator",
+            "projectName": "APCSA_b8dec406"
+        },
+        {
+            "type": "java",
+            "name": "Launch PopulationGrowth",
+            "request": "launch",
+            "mainClass": "PopulationGrowth",
+            "projectName": "APCSA_b8dec406"
+        },
+        {
+            "type": "java",
+            "name": "Launch PowersOfTwo",
+            "request": "launch",
+            "mainClass": "PowersOfTwo",
+            "projectName": "APCSA_b8dec406"
+        },
+        {
+            "type": "java",
+            "name": "Launch QuotientAndRemainder",
+            "request": "launch",
+            "mainClass": "QuotientAndRemainder",
+            "projectName": "APCSA_b8dec406"
+        },
+        {
+            "type": "java",
+            "name": "Launch RightTriangle",
+            "request": "launch",
+            "mainClass": "RightTriangle",
+            "projectName": "APCSA_b8dec406"
+        },
+        {
+            "type": "java",
+            "name": "Launch ScaleMutatorDriver",
+            "request": "launch",
+            "mainClass": "ScaleMutatorDriver",
+            "projectName": "APCSA_b8dec406"
+        },
+        {
+            "type": "java",
+            "name": "Launch SecondArrayLab",
+            "request": "launch",
+            "mainClass": "SecondArrayLab",
+            "projectName": "APCSA_b8dec406"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sphere",
+            "request": "launch",
+            "mainClass": "Sphere",
+            "projectName": "APCSA_b8dec406"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringyMethods",
+            "request": "launch",
+            "mainClass": "StringyMethods",
+            "projectName": "APCSA_b8dec406"
+        },
+        {
+            "type": "java",
+            "name": "Launch TelephoneCall",
+            "request": "launch",
+            "mainClass": "TelephoneCall",
+            "projectName": "APCSA_b8dec406"
+        },
+        {
+            "type": "java",
+            "name": "Launch Wages",
+            "request": "launch",
+            "mainClass": "Wages",
+            "projectName": "APCSA_b8dec406"
+        },
+        {
+            "type": "java",
+            "name": "Launch scaleMutator",
+            "request": "launch",
+            "mainClass": "scaleMutator",
+            "projectName": "APCSA_b8dec406"
+        }
+    ]
+}
