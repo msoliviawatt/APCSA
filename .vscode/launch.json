@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch CarDriver",
+            "request": "launch",
+            "mainClass": "ManagingAnArrayList.CarDriver",
+            "projectName": "APCSA_b8dec406"
+        },
+        {
+            "type": "java",
             "name": "Launch PersonDriver",
             "request": "launch",
             "mainClass": "PersonLab.PersonLab.PersonDriver",

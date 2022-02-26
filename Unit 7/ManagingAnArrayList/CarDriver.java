@@ -51,7 +51,19 @@ public class CarDriver {
         System.out.println("ALL " + rem + " CARS REMOVED!");
     }
 
-    public static void sort(ArrayList<Car> cars) {
+    public static ArrayList<Car> sort(ArrayList<Car> cars) {
+        for(int i = 0; i < cars.size(); i++) {
+            Car key = cars.get(i);
+            int j = i - 1;
+            while(j >= 0 && (cars.get(j).compareTo(key) > 0)) {
+                cars.set((j + 1), cars.get(j));
+                // cars.get(j + 1) = cars.get(j);
+                j--;
+            }
+            cars.set((j + 1), key);
+        }
+        System.out.println("SORTED!");
+        return cars;
     }
 
     public static void display(ArrayList<Car> cars) {
@@ -85,6 +97,10 @@ public class CarDriver {
 
             else if(num == 2) {
                 removeCar(cars);
+            }
+
+            else if(num == 3) {
+                sort(cars);
             }
 
             else if(num == 4) {
