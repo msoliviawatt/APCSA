@@ -41,14 +41,22 @@ public class CarDriver {
         System.out.println("Enter the car model you would like to remove");
         String rem = input.nextLine().toLowerCase();
         int i = cars.size() - 1;
+        int count = 0;
         while(i < cars.size() && i > -1) {
             String key = cars.get(i).getModel().toLowerCase();
             if(key.equals(rem)) {
                 cars.remove(i);
+                count++;
             }
             i--;
         }
-        System.out.println("ALL " + rem + " CARS REMOVED!");
+        if(count == 0) {
+            System.out.println("car not found :(");
+        }
+
+        else {
+            System.out.println("ALL " + rem.toUpperCase() + " CARS REMOVED!");
+        }
     }
 
     public static ArrayList<Car> sort(ArrayList<Car> cars) {
@@ -57,7 +65,6 @@ public class CarDriver {
             int j = i - 1;
             while(j >= 0 && (cars.get(j).compareTo(key) > 0)) {
                 cars.set((j + 1), cars.get(j));
-                // cars.get(j + 1) = cars.get(j);
                 j--;
             }
             cars.set((j + 1), key);
@@ -93,18 +100,22 @@ public class CarDriver {
 
             if(num == 1) {
                 addCar(cars);
+                num = 0;
            } 
 
             else if(num == 2) {
                 removeCar(cars);
+                num = 0;
             }
 
             else if(num == 3) {
                 sort(cars);
+                num = 0;
             }
 
             else if(num == 4) {
                 display(cars);
+                num = 0;
             }
 
             else if(num == 5) {
