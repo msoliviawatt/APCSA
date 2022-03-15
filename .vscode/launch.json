@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch HorseDriver",
+            "request": "launch",
+            "mainClass": "RaceHorse.HorseDriver",
+            "projectName": "APCSA_b8dec406"
+        },
+        {
+            "type": "java",
+            "name": "Launch test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "APCSA_b8dec406"
+        },
+        {
+            "type": "java",
             "name": "Launch CarDriver",
             "request": "launch",
             "mainClass": "ManagingAnArrayList.CarDriver",

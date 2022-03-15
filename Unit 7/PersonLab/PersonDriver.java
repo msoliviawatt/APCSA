@@ -1,4 +1,4 @@
-package PersonLab.PersonLab;
+package PersonLab;
 import java.util.*;
 public class PersonDriver {
     public static void main(String[] arg) {

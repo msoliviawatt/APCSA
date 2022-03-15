@@ -1,4 +1,4 @@
-package PersonLab.PersonLab;
+package PersonLab;
 public class Person implements Comparable<Object>
 {
    // private data fields
