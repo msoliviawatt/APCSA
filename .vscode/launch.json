@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch SuperPrimes",
+            "request": "launch",
+            "mainClass": "SuperPrimes",
+            "projectName": "APCSA_b8dec406"
+        },
+        {
+            "type": "java",
+            "name": "Launch Recursion",
+            "request": "launch",
+            "mainClass": "Recursion",
+            "projectName": "APCSA_b8dec406"
+        },
+        {
+            "type": "java",
+            "name": "Launch PetDriver",
+            "request": "launch",
+            "mainClass": "SimpleHierarchyDesign.PetDriver",
+            "projectName": "APCSA_b8dec406"
+        },
+        {
+            "type": "java",
             "name": "Launch HorseDriver",
             "request": "launch",
             "mainClass": "RaceHorse.HorseDriver",
